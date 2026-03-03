@@ -19,6 +19,7 @@ const userExample = {
 console.log("Full Object:", userExample);
 console.log("Access name:", userExample.name);
 console.log("Access age:", userExample.age);
+console.log("acces isDeveloper:", userExample.isDeveloper);
 
 /********************************************************************
  2️⃣ DOT NOTATION vs BRACKET NOTATION
@@ -123,8 +124,8 @@ console.log("Object.entries:", Object.entries(config));
 /* Using for...in */
 
 for (let key in config) {
-  console.log("for...in key:", key);
-  console.log("for...in value:", config[key]);
+  console.log("for in key:", key);
+  console.log("for in value:", config[key]);
 }
 
 /* Using Object.entries with forEach */
